@@ -1,10 +1,406 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="theme-color" content="#7c3aed"><title>Nos Nard — Social</title>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nos Nard — Official</title>
+
 <style>
-:root{--bg:#f6f2ff;--card:rgba(255,255,255,.78);--text:#211336;--muted:#827492;--line:rgba(127,70,210,.14);--accent:#8b43f5;--shadow:0 18px 48px rgba(81,35,145,.12)}body.dark{--bg:#100a1c;--card:rgba(31,21,48,.86);--text:#f6efff;--muted:#b6a7cb;--line:rgba(192,132,252,.16);--accent:#b26cff;--shadow:0 18px 48px rgba(0,0,0,.25)}*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(ellipse at 50% -10%,#b68aff65,transparent 48%),radial-gradient(circle at 0% 70%,#8b43f51a,transparent 35%),var(--bg);transition:.3s}.wrap{width:min(540px,100%);margin:auto;padding:22px 18px 36px}.top{display:flex;justify-content:flex-end}.theme{border:1px solid var(--line);background:var(--card);color:var(--text);padding:10px 14px;border-radius:99px;font-size:13px;font-weight:700;cursor:pointer;backdrop-filter:blur(12px)}.hero{text-align:center;padding:26px 8px 28px}.logo{height:100px;width:100px;margin:0 auto 19px;border-radius:32px;display:grid;place-items:center;background:linear-gradient(145deg,#7434d7,#b877ff);box-shadow:0 18px 40px #8b43f544, inset 0 1px 0 #ffffff80;color:white;font-size:36px;font-weight:950;letter-spacing:-3px;position:relative}.logo:after{content:'';position:absolute;inset:7px;border:1px solid #ffffff50;border-radius:26px}.hero h1{font-size:34px;letter-spacing:-1.5px;margin:0;font-weight:850}.hero p{margin:9px 0 0;color:var(--muted);font-size:14px}.label{text-align:left;color:var(--muted);font-size:11px;font-weight:800;letter-spacing:1.8px;margin:0 0 12px 5px}.links{display:grid;gap:13px}.link{position:relative;display:flex;align-items:center;gap:15px;padding:15px 16px;border:1px solid var(--line);border-radius:23px;background:var(--card);box-shadow:var(--shadow);backdrop-filter:blur(14px);text-decoration:none;color:var(--text);transition:transform .18s,box-shadow .18s,border .18s;overflow:hidden}.link:before{content:'';position:absolute;inset:0;background:linear-gradient(105deg,#a855f710,transparent 60%);pointer-events:none}.link:hover{transform:translateY(-2px);border-color:#a855f560;box-shadow:0 20px 48px #8b43f522}.link:active{transform:scale(.985)}.iconbox{width:54px;height:54px;border-radius:18px;display:grid;place-items:center;flex:none;color:white;box-shadow:0 8px 22px #00000018}.iconbox svg{width:27px;height:27px;fill:currentColor}.rustore{background:linear-gradient(145deg,#ff8b45,#ffbd52)}.yandex{background:linear-gradient(145deg,#111,#343434)}.youtube{background:linear-gradient(145deg,#ff3030,#d90024)}.telegram{background:linear-gradient(145deg,#40b8ef,#1688d5)}.desc{flex:1;min-width:0}.desc strong{font-size:15px;display:block;font-weight:800;letter-spacing:-.2px}.desc span{display:block;color:var(--muted);font-size:12px;margin-top:4px}.arrow{font-size:21px;color:var(--accent);font-weight:800;padding-left:4px}.foot{text-align:center;color:var(--muted);font-size:11px;letter-spacing:1.3px;margin:26px 0 0}.spark{color:var(--accent)}@media(min-width:500px){.wrap{padding-top:30px}}
-</style></head><body><main class="wrap"><div class="top"><button class="theme" id="themeBtn">☾ &nbsp;Тёмная тема</button></div><header class="hero"><div class="logo">NN</div><h1>Nos Nard</h1><p>Все мои проекты — в одном месте <span class="spark">✦</span></p></header><div class="label">СОЦИАЛЬНЫЕ СЕТИ</div><section class="links">
-<a class="link" href="https://www.rustore.ru/catalog/developer/vskce5" target="_blank" rel="noopener"><div class="iconbox rustore"><svg viewBox="0 0 32 32"><path d="M8 5h5v22H8zM15 5h5v22h-5zM22 5h3v22h-3z"/></svg></div><div class="desc"><strong>Nos Nard в RuStore</strong><span>Приложения и игры</span></div><div class="arrow">↗</div></a>
-<a class="link" href="https://music.yandex.ru/artist/26159340?utm_source=desktop&amp;utm_medium=copy_link" target="_blank" rel="noopener"><div class="iconbox yandex"><svg viewBox="0 0 32 32"><path d="M19.2 4H14c-6 0-9 3.6-9 9.1 0 4.4 2.2 7.2 5.7 8.2L6 28h6.1l5.4-9.2h2V28h5.5V4h-5.8zm.3 10.1h-4.2c-3.2 0-4.8-1.5-4.8-4.3s1.7-4.2 4.8-4.2h4.2z"/></svg></div><div class="desc"><strong>Яндекс Музыка</strong><span>Треки и релизы</span></div><div class="arrow">↗</div></a>
-<a class="link" href="https://www.youtube.com/@NosikNardosik" target="_blank" rel="noopener"><div class="iconbox youtube"><svg viewBox="0 0 32 32"><path d="M29 9.2a3.7 3.7 0 0 0-2.6-2.6C24.1 6 16 6 16 6s-8.1 0-10.4.6A3.7 3.7 0 0 0 3 9.2 38 38 0 0 0 2.4 16 38 38 0 0 0 3 22.8a3.7 3.7 0 0 0 2.6 2.6C7.9 26 16 26 16 26s8.1 0 10.4-.6a3.7 3.7 0 0 0 2.6-2.6A38 38 0 0 0 29.6 16 38 38 0 0 0 29 9.2zM13 20.2V11.8L20.2 16z"/></svg></div><div class="desc"><strong>YouTube</strong><span>Видео и контент</span></div><div class="arrow">↗</div></a>
-<a class="link" href="https://t.me/+kLyp1iOydFIxYjRi" target="_blank" rel="noopener"><div class="iconbox telegram"><svg viewBox="0 0 32 32"><path d="M28.4 5.2 3.8 14.7c-1.7.7-1.7 1.7-.3 2.2l6.3 2 2.4 7.2c.3.8.2 1.1 1.1 1.1.7 0 1-.3 1.4-.7l3.1-3 6.4 4.7c1.2.7 2.1.3 2.4-1.1l4.2-19.7c.4-1.8-.7-2.5-2.4-2.2zm-3.4 5.1L13.2 20.4l-.4 4.3-2-5.9 14.2-8.5z"/></svg></div><div class="desc"><strong>Telegram — Nos Nard</strong><span>Новости и публикации</span></div><div class="arrow">↗</div></a></section><footer class="foot">NOS NARD &nbsp;·&nbsp; LINK HUB</footer></main>
-<script>const body=document.body,btn=document.getElementById('themeBtn');function apply(t){body.classList.toggle('dark',t==='dark');btn.innerHTML=t==='dark'?'☀ &nbsp;Светлая тема':'☾ &nbsp;Тёмная тема';try{localStorage.setItem('nnTheme',t)}catch(e){}}let t='light';try{t=localStorage.getItem('nnTheme')||'light'}catch(e){}apply(t);btn.onclick=()=>apply(body.classList.contains('dark')?'light':'dark');if(window.Telegram&&Telegram.WebApp){Telegram.WebApp.ready();Telegram.WebApp.expand();}</script></body></html>
+:root {
+  --bg: #090a12;
+  --card: rgba(25,27,43,.75);
+  --text: #f5f5fa;
+  --muted: #aaaec0;
+  --accent: #a99cff;
+  --border: rgba(255,255,255,.1);
+}
+
+[data-theme="light"] {
+  --bg: #f0f1fa;
+  --card: rgba(255,255,255,.75);
+  --text: #191a2b;
+  --muted: #64677b;
+  --accent: #6656ce;
+  --border: rgba(0,0,0,.1);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background .5s, color .5s;
+  overflow-x: hidden;
+}
+
+/* ПЕРЕЛИВАЮЩИЙСЯ ФОН */
+
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.blob {
+  position: absolute;
+  width: 55vw;
+  height: 55vw;
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: .42;
+  animation: float 18s infinite alternate ease-in-out;
+}
+
+.blob:nth-child(1) {
+  background: #5142bb;
+  top: -20%;
+  left: -15%;
+}
+
+.blob:nth-child(2) {
+  background: #164d83;
+  right: -15%;
+  top: 15%;
+  animation-delay: -6s;
+}
+
+.blob:nth-child(3) {
+  background: #853d9e;
+  left: 25%;
+  bottom: -35%;
+  animation-delay: -11s;
+}
+
+[data-theme="light"] .blob {
+  opacity: .23;
+}
+
+[data-theme="light"] .blob:nth-child(1) {
+  background: #a9a0ff;
+}
+
+[data-theme="light"] .blob:nth-child(2) {
+  background: #83c8e9;
+}
+
+[data-theme="light"] .blob:nth-child(3) {
+  background: #e6a9df;
+}
+
+@keyframes float {
+  0% { transform: translate(0,0) scale(1); }
+  50% { transform: translate(15vw,10vh) scale(1.2); }
+  100% { transform: translate(-10vw,15vh) scale(.9); }
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(20px);
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+
+nav {
+  max-width: 1100px;
+  margin: auto;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.logo span { color: var(--accent); }
+
+button, .btn {
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  padding: 12px 18px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: .25s;
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+
+.container {
+  max-width: 1050px;
+  margin: auto;
+  padding: 25px 22px;
+}
+
+.hero {
+  margin-top: 65px;
+  padding: 65px 40px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--card);
+  backdrop-filter: blur(20px);
+}
+
+.hero h1 {
+  font-size: clamp(48px, 9vw, 85px);
+  margin: 10px 0;
+  letter-spacing: -5px;
+}
+
+.hero h1 span { color: var(--accent); }
+
+.hero p {
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+section { margin-top: 55px; }
+
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 17px;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.card p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.release {
+  padding: 13px;
+  background: rgba(130,130,160,.1);
+  border-radius: 12px;
+  margin: 9px 0;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 14px;
+}
+
+.links a {
+  padding: 20px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 16px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+  transition: .25s;
+}
+
+.links a:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 45px 20px;
+  color: var(--muted);
+}
+
+.accent { color: var(--accent); }
+
+@media(max-width:600px) {
+  .hero { padding: 35px 22px; }
+  .hero h1 { letter-spacing: -3px; }
+  .hero p { font-size: 16px; }
+  .blob { filter: blur(65px); }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="background">
+  <div class="blob"></div>
+  <div class="blob"></div>
+  <div class="blob"></div>
+</div>
+
+<header>
+<nav>
+  <div class="logo">NOS<span>.</span>NARD</div>
+  <button onclick="toggleTheme()" id="themeBtn">☀ Светлая тема</button>
+</nav>
+</header>
+
+<main class="container">
+
+<div class="hero">
+  <div class="accent">МУЗЫКА · ВИДЕО · РАЗРАБОТКА</div>
+  <h1>Nos Nard<span>.</span></h1>
+  <p>
+    Российский музыкант, ютубер и разработчик игр.
+    Выпускаю собственные треки, создаю игровые проекты
+    и делюсь интересными моментами на YouTube.
+  </p>
+  <a class="btn" href="https://www.youtube.com/@NosikNardosik/featured" target="_blank">▶ YouTube</a>
+  <a class="btn" href="https://band.link/3B2e3" target="_blank">♫ Моя музыка</a>
+</div>
+
+<section>
+<h2>Обо мне</h2>
+<div class="grid">
+  <div class="card">
+    <div class="icon">♫</div>
+    <h3>Музыкант</h3>
+    <p>Создаю и выпускаю собственные треки и альбомы на музыкальных платформах.</p>
+  </div>
+  <div class="card">
+    <div class="icon">▶</div>
+    <h3>Ютубер</h3>
+    <p>Снимаю прохождения игр, обзоры, тесты, влоги и итоги года.</p>
+  </div>
+  <div class="card">
+    <div class="icon">⌘</div>
+    <h3>Разработчик</h3>
+    <p>Изучаю программирование и создаю собственные игровые проекты.</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>Музыка и альбомы</h2>
+<div class="grid">
+  <div class="card">
+    <div class="icon">🎵</div>
+    <h3>Мои работы</h3>
+    <div class="release">Печатаю и стираю</div>
+    <div class="release">Эхо в пустых стенах</div>
+    <div class="release">Девятый класс</div>
+    <div class="release">Пой и танцуй — август 2026</div>
+    <div class="release">Бесконечный выходной — альбом 2026</div>
+    <a class="btn" href="https://band.link/3B2e3" target="_blank">Слушать музыку ↗</a>
+  </div>
+  <div class="card">
+    <div class="icon">🎧</div>
+    <h3>Стриминговые платформы</h3>
+    <p>Яндекс Музыка, VK Музыка, Zvuk.com и МТС Музыка.</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>YouTube и видео</h2>
+<div class="grid">
+  <div class="card">
+    <div class="icon">🎮</div>
+    <h3>Игровые видео</h3>
+    <p>Brawl Stars, Minecraft, PUBG, DOORS 2 и другие игры.</p>
+  </div>
+  <div class="card">
+    <div class="icon">📹</div>
+    <h3>Другие видео</h3>
+    <p>Обзоры, тесты, личные влоги, поездки и «Итоги года».</p>
+  </div>
+  <div class="card">
+    <div class="icon">🌐</div>
+    <h3>Другие площадки</h3>
+    <p>Также развивались каналы на RuTube и Дзене. Канал на Дзене закрыт.</p>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>Игровые проекты</h2>
+<div class="card">
+  <div class="icon">🕹️</div>
+  <h3>Мои игры</h3>
+  <p>Создаю собственные игры и развиваюсь в сфере программирования.</p>
+  <a class="btn" href="https://www.rustore.ru/catalog/developer/vskce5" target="_blank">Игры в RuStore ↗</a>
+</div>
+</section>
+
+<section>
+<h2>Полезные ссылки</h2>
+<div class="links">
+  <a href="https://band.link/3B2e3" target="_blank">♫ Моя музыка ↗</a>
+  <a href="https://www.youtube.com/@NosikNardosik/featured" target="_blank">▶ YouTube ↗</a>
+  <a href="https://www.rustore.ru/catalog/developer/vskce5" target="_blank">🎮 RuStore ↗</a>
+</div>
+</section>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Nos Nard · Официальный сайт
+</footer>
+
+<script>
+function toggleTheme() {
+  const root = document.documentElement;
+  const next = root.dataset.theme === "dark" ? "light" : "dark";
+  root.dataset.theme = next;
+  localStorage.setItem("nosnard-theme", next);
+  updateButton();
+}
+
+function updateButton() {
+  const dark = document.documentElement.dataset.theme === "dark";
+  document.getElementById("themeBtn").textContent =
+    dark ? "☀ Светлая тема" : "☾ Тёмная тема";
+}
+
+const saved = localStorage.getItem("nosnard-theme");
+if (saved) document.documentElement.dataset.theme = saved;
+updateButton();
+
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
